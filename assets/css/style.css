@@ -47,7 +47,7 @@ html {
 .section-title {
   text-align: center;
   font-size: 50px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 30px 0px;
   text-transform: capitalize;
 }
@@ -163,13 +163,13 @@ p.review-text{
 .why-need {
   padding: 15px;
   text-align: center;
-  background-color: #222223;
-  color: #fff;
+  /* background-color: #222223; */
+  /* color: #fff; */
 }
 
 .why-need h2 {
   margin-bottom: 15px;
-  color: green;
+  /* color: green; */
 }
 
 
@@ -199,4 +199,44 @@ p.review-text{
 }
 footer{
   background-color: #f1f1f1;
+}
+
+
+.btn-last a{
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.pulse {
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px #dddddd;
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px 0px  rgb(102, 173, 89);
+  }
+  50% {
+      -webkit-box-shadow: 0px 0px 5px 5px  rgb(102, 173, 89);
+  }
+  100% {
+      -webkit-box-shadow: 0px 0px 0px 0px  rgb(102, 173, 89);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0px 0px 0px 0px rgb(102, 173, 89);
+    box-shadow: 0px 0px 0px 0px rgb(102, 173, 89);
+  }
+  50% {
+      -moz-box-shadow: 0px 0px 5px 5px rgb(102, 173, 89);
+      box-shadow: 0px 0px 5px 5px rgb(102, 173, 89);
+  }
+  100% {
+      -moz-box-shadow: 0px 0px 0px 0px rgb(102, 173, 89);
+      box-shadow: 0px 0px 0px 0px rgb(102, 173, 89);
+  }
 }
