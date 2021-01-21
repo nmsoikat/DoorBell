@@ -209,12 +209,14 @@ footer{
 
 .pulse {
   cursor: pointer;
-  box-shadow: 0px 5px 10px 0px #dddddd;
+  box-shadow: 0px 2px 2px 0px #dddddd;
   animation: pulse 2s infinite;
 }
 .pulse:hover {
   animation: none;
+  background-color: rgb(74, 146, 62);
 }
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0px 0px 0px 0px  rgb(102, 173, 89);
